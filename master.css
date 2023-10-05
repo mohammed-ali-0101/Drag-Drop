@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: sans-serif;
+}
+body{
+    background-color: #7272e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+
+}
+.inputs{
+    background: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h2{
+    font-size: 30px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 80%;
+}
+.data input{
+    outline: none;
+    padding: 4px;
+    border:1px solid #7272e7
+}
+.data button{
+    background-color:#7272e7;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.lists{
+display: flex;
+justify-content: space-around;
+width: 100%;
+align-items: flex-start;    /* اذا لم نضعها سوف ياخذ كل صندوق نفس الطول حتى لو كان لا يوجد به محتوى سوف يأخذ نفس الطول للصندوق الذس يحوي عناصر  */
+}
+.box{
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+.box .item{
+    background-color: #7272e7;
+    color: white;
+    padding: 4px;
+    margin: 5px auto;
+    cursor: move;
+}
